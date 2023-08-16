@@ -3,4 +3,4 @@ import { GrafanaOperatorConstruct } from "../lib/grafana-operator-construct"
 
 const app = configureApp();
 
-new GrafanaOperatorConstruct().build(app, "grafana-operator");
+const blueprint = new GrafanaOperatorConstruct().build(app, "grafana-operator");
